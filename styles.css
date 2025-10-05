@@ -1,0 +1,40 @@
+.st-key-orange button {
+    background-color: red;
+    border-radius: 10px;
+    padding: 20px 60px;
+    animation: pulse 2s infinite;
+}
+
+.st-key-orange2 button {
+    background-color: red;
+    border-radius: 10px;
+    padding: 20px 60px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(249, 152, 41, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 20px rgba(76, 175, 80, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
+    }
+}
+
+.st-key-orange button p {
+    font-size: 24px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+
+.st-key-orange button:hover {
+    background-color: #45a049; 
+    border: none;
+}
+
+.st-key-orange button:hover p {
+    color: #37ff55; 
+}
